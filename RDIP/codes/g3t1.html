@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	<h1>Experiment</h1>
+	<link rel = "stylesheet" type = "text/css" href = "CSS.css">
+	<script src = "JS.js">
+   </script></head>
+<body>
+	<div class="border"></div>
+<div class="select">
+		<select id="language" onchange="GetSelectedTextValue(this)">
+	<option value="1" selected>---Select Language---</option>
+    <option value="2">English</option>
+    <option value="3">Hindi</option>
+</select> 
+<div class = "textcolor">
+<p id="demo"></p></div>
+<div class = "tcolor">
+<p id="dem"></p></div>
+</div>
+<p id = "in"></p>
+<p id = "input" ></p><br>
+ <div class = "textcolor">
+<div class = "formed">
+<p id = "op1"></p></div></div>
+<div class = "output">
+	<p id = "op2"></p> </div>
+
+<div class = "ref">
+<button id="o1" style="visibility: hidden" onclick="reform()">Re-form the sentence</button><br></div>
+<div class = "crt">
+<button id="o2" style="visibility: hidden" onclick="find()" >Check the correctness of this sentence</button></div>
+<div class = "fin">
+<button id="o3" style="visibility: hidden" onclick="final()" >Get Correct Sentence</button></div>
+<div class = "ans">
+<p id="op4"></p></div>
+<div class = "last">
+<p id="op5"></p></div>
+</body>
+</html>
